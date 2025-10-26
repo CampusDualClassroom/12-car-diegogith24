@@ -6,11 +6,11 @@ public class Exercise {
         mycar.tachometer = 0;
         mycar.start();
         mycar.accelerate();
-        mycar.accelerate();
         mycar.brake();
         mycar.turnAngleOfWheels(20);
         mycar.stop();
         mycar.setReverse(true);
+        mycar.showDetails();
     }
 
 }

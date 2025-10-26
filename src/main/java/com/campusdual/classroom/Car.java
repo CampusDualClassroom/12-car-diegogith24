@@ -58,8 +58,9 @@ public class Car {
             System.out.println("Velocidad reducida a 0, no puede ser negativa");
         } else {
             speedometer -= decrement;
-            System.out.println("Velocidad actual: " + speedometer);
+
         }
+        System.out.println("Velocidad actual: " + speedometer);
     }
 
     public void turnAngleOfWheels(int angle) {
@@ -82,7 +83,7 @@ public class Car {
 
     public boolean isReverse(){
 
-        return false;
+        return this.reverse;
     }
 
     public void setReverse(boolean reverse){
